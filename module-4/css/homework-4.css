@@ -19,6 +19,7 @@ html {
 img{
     display: block;
     max-width: 100%;
+
     height: auto;
 }
 
@@ -38,6 +39,7 @@ img{
     text-decoration: none;
     font-size: 30px;
     color: #555252;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo::first-letter{
@@ -54,6 +56,7 @@ img{
     width: 475px;
     float: right;
     margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .site-navigation li{
@@ -93,6 +96,8 @@ padding: 0px;
     width: 255px;
     float: left;
     list-style: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 .features-list-item::before{
     content: "";
@@ -107,7 +112,7 @@ padding: 0px;
     margin-bottom: 30px;
 }
 
-.fon{
+.backround{
     width: 255px;
     height: 285px;
     background-color:#e9f0fd;
@@ -160,6 +165,7 @@ h2{
     text-align: center;
     color: #555252;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2::after{
@@ -190,7 +196,8 @@ h2::after{
     width: 350px;
     background-color: white;
     margin-right: 30px;
-    }
+    font-family: 'Open Sans', sans-serif;
+}
 
 .news-list-item:last-child{
     margin-right: 0px;
@@ -243,6 +250,7 @@ h2::after{
         min-height: 50px;
         border-radius: 3%;
         cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
 }
     
 
