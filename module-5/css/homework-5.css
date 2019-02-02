@@ -92,7 +92,7 @@ img{
 }
 
 .section-slider{
-    background-image: url(/img/0.jpg);
+    background-image: url(.././img/0.jpg);
     background-size: cover;
     background-position: center;
     font-family: 'Roboto', sans-serif;
