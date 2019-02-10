@@ -364,7 +364,7 @@ form {
     width: 230px;
     height: 40px;
     color: #e5e5e5;
-    border: 3px solid #e5e5e5;
+    border: 2px solid #e5e5e5;
     border-right: none;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -383,5 +383,6 @@ form {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    cursor: pointer;
     
   }
