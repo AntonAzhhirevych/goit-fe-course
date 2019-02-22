@@ -1,0 +1,57 @@
+@media (min-width:768px){
+
+    .masthead{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 0 auto;
+        padding-top: 30px;
+        margin-bottom: 150px;
+        text-align: center;
+        width: 660px; 
+    }
+    
+    .background{
+        background-image: url(/img/background-2.png);
+    }
+
+    .logo,.menu{
+        margin: 0;
+    }
+
+    .section-1{
+        padding-bottom: 240px;
+        margin-bottom:70px;
+    }
+
+    .title{
+        font-size: 50px;
+        width: 500px;
+        margin: auto;
+    }
+    .subtitle{
+        font-size: 24px;
+    }
+
+    .title-2{
+        margin-bottom: 50px;
+        width: 490px;
+    }
+    
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        width: 490px;
+        margin: 0 auto;
+    }
+
+    .card{
+        flex-basis:48%;
+        margin: 0; 
+    }
+
+    
+
+    
+}
