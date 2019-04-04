@@ -1,0 +1,136 @@
+.team-card__member{
+  width: 380px;
+  position: relative;
+}
+
+.card-member__img{
+  max-width: 100%;
+  height: 470px;
+  margin-bottom: 30px;
+  object-fit: cover; 
+}
+
+.background{
+  max-width: 100%;
+  height: 470px;
+  margin-bottom: 30px;
+  background-color: #95e1d3;
+}
+
+.card-member__content{
+  color: #333333;
+    
+}
+
+.card-member__name{
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  font-family: $montserrat-font-stack;
+}
+
+.card-member__position{
+  font-size: 15px;
+  color: #a8a8a8;
+  font-weight: 400;
+  line-height: 26px;
+  display: block;
+  text-align: center;
+  font-family: $roboto-font-stack;
+}
+
+.team-cards{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.team-card__overlay{
+  width: 380px;
+  height: 470px;
+  position: absolute;
+    
+}
+
+
+.shadow{
+  background-color: #95e1d3
+}
+
+.team-card__member:hover .team-card__overlay{
+  background: linear-gradient(rgba(239, 138, 138, 0.5), #eed787);
+  -webkit-transform: translate(-10%,-10%);
+  -ms-transform: translate(-10%,-10%);
+  transform: translate(-10px,-10px);
+  z-index: 1;
+  -webkit-transition-duration: 200ms;
+  -o-transition-duration: 200ms;
+  transition-duration: 200ms; 
+    
+}
+
+.team-card__member:hover .card-member__img{
+  -webkit-transform: translate(-10%,-10%);
+  -ms-transform: translate(-10%,-10%);
+  transform: translate(-10px, -10px);
+  -webkit-transition-duration: 200ms;
+  -o-transition-duration: 200ms;
+  transition-duration: 200ms; 
+    
+}
+
+.team-card__member:hover .team-card__overlay > .card-overlay__icons{
+  display: block;
+}
+
+.card-overlay__icon:hover{
+  background-color: #f38181; 
+  fill: $primary-white-color;
+}
+    
+.card-overlay__icons{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50% ,-50%);
+  width: 100%;
+  text-align: center;
+  background-size: 30px;
+  margin: 0;
+  font-size: 0;
+    
+}
+
+.card-overlay__icon{
+  display: inline-block;
+  border: none;
+  width: 55px;
+  height: 55px;
+  background-size: 50%;
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  -webkit-transition: background-color 200ms linear ;
+  -o-transition: background-color 200ms linear ;
+  transition: background-color 200ms linear ;
+  margin-right: 2px;
+}
+
+.icon-social{
+  fill: #f38181;
+}
+
+.card-overlay__icon:hover>.icon-social {
+  fill: $primary-white-color;
+}
+

@@ -1,0 +1,24 @@
+
+.header-logo{
+  text-decoration: none;
+  color: $primary-white-color;
+  font-size: 30px;
+  display: inline-block;
+  font-weight: bolder;
+  font-family: $montserrat-font-stack;
+  animation: logo-rotate 0.5s linear;
+}
+
+@keyframes header__logo-rotate {
+  0%{
+    transform: translateX(200px);
+  }
+    
+  50%{
+    transform: translateX(0)
+  }
+    
+  100%{
+    transform: rotate(180deg)
+  }
+}

@@ -1,0 +1,22 @@
+
+@import './variables';
+@import './normalize';
+@import './components/base';
+
+/*header*/
+@import './components/header/header-base';
+@import './components/header/logo';
+@import './components/header/menu';
+
+/*main*/
+@import './components/main/main-base';
+@import './components/main/banner';
+@import './components/main/background';
+@import './components/main/service';
+@import './components/main/team';
+
+/*footer*/
+@import './components/footer/footer-inf';
+@import './components/footer/footer-form';
+@import './components/footer/footer-base';
+@import './components/footer/footer-link';

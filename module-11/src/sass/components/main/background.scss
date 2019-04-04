@@ -1,0 +1,20 @@
+.bgr{
+  height: 1000px;
+  background-image: url(.././images/background-image.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 45px;
+}
+
+@media(min-resolution:192dpi) , (min-resolution: 2dppx) {
+  .bgr{
+    background-image: url(.././images/background-image@2X.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.bgr-gradient{
+  background: linear-gradient(rgba(239, 138, 138, 0.5), #eed787);
+  height: 100%;
+}

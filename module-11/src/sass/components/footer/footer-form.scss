@@ -1,0 +1,36 @@
+.subscribe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+  
+.email__input {
+  box-sizing: border-box;
+  width: 230px;
+  height: 40px;
+  color: $primary-pink-color;
+  padding-left: 10px;
+  font-family: $montserrat-font-stack;
+  border: 2px solid #e5e5e5;
+  border-right: none;
+  font-family: $roboto-font-stack;
+  font-size: 15px;
+}
+
+.email__submit {
+  box-sizing: border-box;
+  line-height: 30px;
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  border: none;
+  color: $primary-white-color;
+  font-family: $montserrat-font-stack;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;  
+}
