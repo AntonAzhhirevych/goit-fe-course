@@ -4,57 +4,56 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  color: $primary-black-color;
-  text-transform: uppercase;
   font-family: $montserrat-font-stack;
+  text-transform: uppercase;
+  color: $primary-black-color;
 }
 
 .service-description__subtitle , .team-description__subtitle{
-  font-size: 24px;
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
   text-align: center;
-  color: $primary-black-color;
-  margin-bottom: 20px;
   font-family: $Kaushan-font-stack;
+  font-size: 24px;
+  color: $primary-black-color;
+
 }
 
 .service-description__title::after{
-  content: "";
-  border-bottom: 3px solid #f38181 ;
-  display: block;
   width: 60px;
   margin: auto;
   margin-bottom: 90px;
   padding-bottom: 35px;
+  display: block;
+  content: "";
+  border-bottom: 3px solid #f38181 ;
+  
+ 
 }
 
 .team-description__title::after{
-  content: "";
-  border-bottom: 3px solid #f38181 ;
-  display: block;
   width: 60px;
   margin: auto;
   margin-bottom: 90px;
   padding-bottom: 35px;
+  display: block;
+  content: "";
+  border-bottom: 3px solid #f38181 ;
+
 }
 
 .service{
-  display: -webkit-box;
-  display: -ms-flexbox;
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  position: relative;
 }
 
 .item-text__h3{
-  text-transform: uppercase;
+  font-family: $montserrat-font-stack;
   font-size: 14px;
   color: #666666;
-  font-family: $montserrat-font-stack;
+  text-transform: uppercase;
 }
 
 .service__item p{
@@ -64,24 +63,24 @@
 }
 
 .service__item{
+  padding-left: 60px;
+  margin-bottom: 95px;
   display: inline-block;
-  -ms-flex-preferred-size: 340px;
   flex-basis: 340px;
   flex-grow: 0;
   flex-shrink: 0;
-  padding-left: 60px;
-  margin-bottom: 95px;
 
 }
 
 
 .team-description__text{
-  text-align: center;
   width: 1000px;
-  font-family: $roboto-font-stack;
-  margin-bottom: 95px;
-  color: #999999;
   margin-left: 100px;
+  margin-bottom: 95px;
+  text-align: center;
+  font-family: $roboto-font-stack;
+  color: #999999;
+ 
     
 }
 
@@ -91,8 +90,6 @@
   width: 40px;
   height: 40px;
   position: absolute;
-  -webkit-transform: translate(-150%,-10%);
-  -ms-transform: translate(-150%,-10%);
   transform: translate(-150% ,-10%);    
   background-repeat: no-repeat;
   background-position: center;

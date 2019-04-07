@@ -1,35 +1,33 @@
 
 .header-menu {
-  display: flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   width: 490px;
+  display: flex;
   justify-content: space-between;
     
 }
 
 .item-link{
-  color: $primary-white-color;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: $montserrat-font-stack;
   padding-bottom: 10px;
+  font-family: $montserrat-font-stack;  
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $primary-white-color;
   transition: color 200ms linear;
 
   &:hover{
     color: $primary-yellow-color;
     border-bottom: 3px solid $primary-yellow-color ;
     transition: border-bottom 200ms linear;
+  
+  
   }
-}
 
-.item-link__svg {
-  fill: $primary-white-color;
-}
+  &__svg {
+    fill: $primary-white-color;
 
-.item-link__svg:hover {
-  fill: $primary-yellow-color;
+    &:hover {
+      fill: $primary-yellow-color;
+    }
+  }
 }

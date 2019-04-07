@@ -3,13 +3,10 @@
   text-decoration: none;
   color: #333333;
   font-family: $montserrat-font-stack;
-  -webkit-transition: color 200ms linear ;
-  -o-transition: color 200ms linear ;
   transition: color 200ms linear;
 
   &:hover{
     color: $primary-pink-color;
   }
-    
 }
 

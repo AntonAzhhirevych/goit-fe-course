@@ -1,11 +1,11 @@
 
 .header-logo{
+  display: inline-block;
+  font-family: $montserrat-font-stack;
+  font-size: 30px;
+  font-weight: bolder;
   text-decoration: none;
   color: $primary-white-color;
-  font-size: 30px;
-  display: inline-block;
-  font-weight: bolder;
-  font-family: $montserrat-font-stack;
   animation: logo-rotate 0.5s linear;
 }
 
