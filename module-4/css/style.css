@@ -21,6 +21,7 @@ html {
 img {
   display: block;
   max-width: 100%;
+
   height: auto;
 }
 
@@ -235,14 +236,14 @@ h2::after {
   display: block;
   margin-top: 15px;
   width: 165px;
-  margin: left;
-  margin-bottom: 30px;
+  margin: 0;
+  margin-bottom: 32px;
 }
 
 /*BUTTON*/
 
 .news-list-item a {
-  border: 1px solid #4ec6ab;
+  /* border: 1px solid #4ec6ab; */
   border: none;
   padding: 20px 40px;
   font-size: 16px;
@@ -254,4 +255,6 @@ h2::after {
   border-radius: 3%;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
+  display: block;
+  width: 165px;
 }
