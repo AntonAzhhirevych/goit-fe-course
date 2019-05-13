@@ -1,0 +1,256 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* HEADER*/
+
+.masthead {
+  width: 940px;
+  padding: 40px 0 120px 0;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fed136;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: 'Aguafina Script';
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 480px;
+  font-family: 'Montserrat';
+}
+
+.site-navigation a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+  transition: color 100ms linear;
+}
+
+.site-navigation a:hover {
+  color: #fed136;
+}
+
+/* MAIN */
+
+.section-1 {
+  width: 940px;
+  margin-bottom: 120px;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 18px;
+  padding: 0;
+  font-size: 40px;
+  color: #222222;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+.subtitle {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 148px;
+  padding: 0;
+  font-family: 'Handlee';
+  font-size: 16px;
+  color: #777777;
+}
+
+.service-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.service {
+  flex-basis: 280px;
+  text-align: center;
+  display: inline-block;
+}
+
+.service h3 {
+  text-align: center;
+  color: #222222;
+  font-size: 18px;
+  font-family: 'Montserrat';
+}
+
+.service p {
+  color: #777777;
+  font-size: 14px;
+  font-family: 'Roboto Slab';
+
+  line-height: 24px;
+}
+
+.service h3::before {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  transform: translate(100px, -80px);
+  border: 3px solid #fed136;
+  border-radius: 50%;
+}
+
+.icon-basket h3::before {
+  background-image: url(../img/basket.png);
+}
+
+.icon-laptop h3::before {
+  background-image: url(../img/laptop.png);
+}
+
+.icon-locked h3::before {
+  background-image: url(../img/locked.png);
+}
+
+.section-2 {
+  background-image: url(../img/map.png);
+}
+
+.title-contact-us {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 105px;
+  margin-bottom: 18px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+
+.subtitle-contact-us {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 74px;
+  padding: 0;
+  font-size: 16px;
+  color: #777777;
+  font-family: 'Handlee';
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  width: 455px;
+  border: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form-2 {
+  display: flex;
+  flex-direction: column;
+  width: 455px;
+  margin-bottom: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.email-input {
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.name-input {
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.subject-input {
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.text-input {
+  height: 192px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.sent {
+  width: 240px;
+  height: 65px;
+  margin-top: 20px;
+  background-color: #fed136;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  transform: translate(-140px);
+  cursor: pointer;
+}
+
+.req:valid {
+  outline: 2px solid #008000;
+}
+.req:invalid {
+  outline: 2px solid #fd0101;
+}
