@@ -1,16 +1,16 @@
-@media (min-width:1200px) {
-    .masthead{
-        min-width: 940px;
-    }
+@media (min-width: 1200px) {
+  .masthead {
+    min-width: 940px;
+  }
 
-.cards{
+  .cards {
     display: flex;
     justify-content: space-between;
     width: 940px;
-}
+  }
 
-.card{
+  .card {
     flex-basis: 25%;
     text-align: center;
-}
+  }
 }
