@@ -66,6 +66,7 @@ html {
 }
 
 .site-navigation a {
+  display: block;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 17px;
@@ -79,7 +80,7 @@ html {
 
 /*--------------SEECTION-1---------------*/
 
-.conteiner {
+.container {
   width: 1110px;
   margin: 0 auto;
 }
@@ -162,12 +163,14 @@ img {
 
 .slider-content {
   padding: 20px;
+  position: absolute;
+  top: 170px;
+  left: 180px;
 }
 
 .title {
-  position: absolute;
-  top: 180px;
-  left: 190px;
+  margin: 0;
+  padding-bottom: 10px;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
@@ -176,9 +179,7 @@ img {
 }
 
 .subtitle {
-  position: absolute;
-  top: 280px;
-  left: 190px;
+  margin: 0;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
@@ -190,7 +191,7 @@ img {
   background-color: #e9f0fd;
   padding-top: 100px;
   font-family: 'Roboto', sans-serif;
-  padding-bottom: 100px;
+  padding-bottom: 130px;
 }
 
 .card-list {
@@ -216,9 +217,6 @@ img {
   margin-right: 30px;
 }
 
-.card-list-item:nth-child(-n + 3) {
-  margin-bottom: 30px;
-}
 
 .backround {
   width: 255px;
@@ -266,7 +264,12 @@ img {
   background-color: #323232;
 }
 
+.rectangle{
+  margin-bottom: 90px;
+}
+
 .featured-products {
+  margin: 0;
   font-size: 42px;
   margin: 0;
   padding: 0;
@@ -281,7 +284,6 @@ img {
   display: block;
   width: 165px;
   margin: auto;
-  margin-bottom: 90px;
   padding-bottom: 35px;
 }
 
@@ -314,6 +316,8 @@ img {
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
+  border: none;
+  background-color: Transparent;
 }
 
 .overlay-icons {
@@ -334,7 +338,6 @@ img {
 .big {
   width: 164px;
   height: 50px;
-  padding-top: 17px;
   padding-left: 40px;
   font-size: 15px;
   text-decoration: none;
@@ -352,14 +355,12 @@ img {
 
 .time {
   background-repeat: no-repeat;
-  padding-top: 13px;
   padding-left: 13px;
   box-shadow: 0 0 0 1px #ffffff;
 }
 
 .like {
   background-repeat: no-repeat;
-  padding-top: 13px;
   padding-left: 13px;
   box-shadow: 0 0 0 1px #ffffff;
 }
@@ -367,13 +368,13 @@ img {
 .arrov {
   background-repeat: no-repeat;
   box-shadow: 0 0 0 1px #ffffff;
-  padding-top: 13px;
   padding-left: 13px;
 }
 
 /*-----------------footer-----------------*/
 
 .dop-inf {
+  margin: 0;
   width: 100%;
   height: 88px;
   padding-top: 38px;
@@ -386,10 +387,17 @@ img {
 }
 
 .themengraph {
+  display: inline-block;
+  margin: 0;
   text-decoration: none;
   color: #ffffff;
 }
 
 .themengraph:hover {
   color: #1abc9c;
+}
+
+
+.footer-text{
+  margin: 0;
 }
